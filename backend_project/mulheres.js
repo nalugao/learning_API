@@ -1,34 +1,36 @@
-const express = require("express")
-const router = express.Router()
+const express = require("express");
+const router = express.Router();
 
-const app = express()
-const porta = 3333
+const app = express();
+const porta = 3333;
 
-const mulheres = [
-    {
-        nome: 'Natalia Lugão',
-        imagem: 'https://github.com/simaraconceicao.png',
-        minibio: 'Desenvolvedora'
-    },
-    {
-        nome: 'Simara Conceição',
-        imagem: 'https://github.com/simaraconceicao.png',
-        minibio: 'Instrutora'
-    },
-    {
-        nome: 'Nina da Hora',
-        imagem: 'https://github.com/simaraconceicao.png',
-        minibio: 'Hacker'
-    },
-]
+const listaMulheres = [
+  {
+    nome: "Natalia Lugão",
+    imagem: "https://avatars.githubusercontent.com/u/188492757?v=4",
+    minibio: "Desenvolvedora em formação",
+  },
+  {
+    nome: "Natalia Lugão",
+    imagem: "https://avatars.githubusercontent.com/u/188492757?v=4",
+    minibio: "Desenvolvedora em formação",
+  },
+  {
+    nome: "Natalia Lugão",
+    imagem: "https://avatars.githubusercontent.com/u/188492757?v=4",
+    minibio: "Desenvolvedora em formação",
+  },
+];
 
 function mostraMulheres(request, response) {
-    response.json(mulheres)
+  response.json(listaMulheres);
 }
 
 function mostraPorta() {
-    console.log("Servidor criado e rodando na porta", porta)
+  console.log(
+    `O servidor está sendo transmitido em http://localhost:${3333}/mulheres`
+  );
 }
 
-app.use(router.get('/mulheres', mostraMulheres))
-app.listen(porta, mostraPorta)
+app.use(router.get("/mulheres", mostraMulheres));
+app.listen(porta, mostraPorta);
