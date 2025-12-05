@@ -1,7 +1,5 @@
 # learning_API
 
-Meu primeiro servidor com Node.js feito no curso EuProgramo.
-
 Resumo de tecnologias estudadas: 
 
 * `Node.Js` É um ambiente que permite rodar JavaScript no servidor (fora do navegador).Com ele você cria APIs, servidores, automações, back-end etc.
