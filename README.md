@@ -17,6 +17,6 @@ Resumo de tecnologias estudadas:
 * `cors` Usado para liberar chamadas entre domínio diferentes (frontend ↔ backend).
  
 
-Deploy do back-end pelo Render: https://mulheresapi.onrender.com
-Projeto do front-end já configurado com a API e Banco de Dados: https://github.com/nalugao/front-programaria-react-api
+Deploy do back-end pelo Render: https://mulheresapi.onrender.com <br/>
+Projeto do front-end já configurado com a API e Banco de Dados: https://github.com/nalugao/front-programaria-react-api<br/>
 Deploy do front-end pela Vercel: https://front-programaria-react-api.vercel.app/
