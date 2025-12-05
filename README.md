@@ -9,6 +9,7 @@ Resumo de tecnologias estudadas:
 *  `JSON` Formato de texto usado para enviar e receber dados entre sistemas.
 * `MongoDB` Banco de dados NoSQL, baseado em documentos (JSON). Ele não usa tabelas; usa coleções e documentos flexíveis.
 * `Mongoose` Biblioteca do Node.js que facilita trabalhar com MongoDB. Ele permite criar modelos e validar dados antes de salvar no banco.
+* `Insomnia` É um cliente de API — uma ferramenta usada para testar requisições HTTP
 * `Funções essenciais: async/await` Forma moderna de lidar com código assíncrono (que demora).
 * `Funções essenciais: try/catch` Serve para tratar erros no código e evitar que a aplicação quebre.
 * `dotenv` Biblioteca usada para carregar variáveis de ambiente de um arquivo .env, como: URL do banco, senha, token. Evita expor informações sensíveis no código.
